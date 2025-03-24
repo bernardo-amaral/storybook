@@ -10,6 +10,4 @@ const meta: Meta<CustomComponent> = {
 export default meta;
 type Story = StoryObj<CustomComponent>;
 
-export const Default: Story = {
-  tags: ['autodocs'],
-};
+export const Default: Story = {};
