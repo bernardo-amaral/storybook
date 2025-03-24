@@ -10,6 +10,8 @@ const config: StorybookConfig = {
     '@storybook/addon-onboarding',
     '@chromatic-com/storybook',
     '@storybook/addon-interactions',
+    '@storybook/manager-api',
+    '@storybook/theming',
   ],
   framework: {
     name: '@storybook/angular',
