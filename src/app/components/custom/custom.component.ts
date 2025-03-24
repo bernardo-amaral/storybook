@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
   imports: [CommonModule],
   template: `<p>teste</p>`,
 })
-export class CustomComponent {}
+export class CustomComponent {
+  constructor() {
+    console.log('teste');
+  }
+}

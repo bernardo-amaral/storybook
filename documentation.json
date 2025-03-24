@@ -220,7 +220,7 @@
         },
         {
             "name": "CustomComponent",
-            "id": "component-CustomComponent-bfae9da7e3607349d14361779c0951337031869f9dc082327ee6ddfe4b3cdccc9e2bc9399091cb7c72fbc0d08927ef9bedd375bca378b1303b47077c9255c7b6",
+            "id": "component-CustomComponent-80a1abd92569eed532280eeb7195f837d4306eaabc4616404a00b6ad1caa1ae62b3ff04bce1509f29ca4f5bb2f99fd496ea06a2ee226857ea86d512c8f1fb94a",
             "file": "src/app/components/custom/custom.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -252,10 +252,18 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { CommonModule } from '@angular/common';\nimport { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-custom-component',\n  standalone: true,\n  imports: [CommonModule],\n  template: `<p>teste</p>`,\n})\nexport class CustomComponent {}\n",
+            "sourceCode": "import { CommonModule } from '@angular/common';\nimport { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-custom-component',\n  standalone: true,\n  imports: [CommonModule],\n  template: `<p>teste</p>`,\n})\nexport class CustomComponent {\n  constructor() {\n    console.log('teste');\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 10
+            },
             "extends": []
         },
         {
@@ -513,7 +521,7 @@
                 "linktype": "component",
                 "name": "CustomComponent",
                 "coveragePercent": 0,
-                "coverageCount": "0/1",
+                "coverageCount": "0/2",
                 "status": "low"
             },
             {
